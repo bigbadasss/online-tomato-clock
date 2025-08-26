@@ -2,14 +2,14 @@
 
 const CACHE_NAME = 'online-tomato-v1.0.0';
 const urlsToCache = [
-    '/',
-    '/index.html',
-    '/src/styles/main.css',
-    '/src/js/app.js',
-    '/src/js/timer.js',
-    '/src/js/stats.js',
-    '/src/js/settings.js',
-    '/favicon.ico',
+    './',
+    './index.html',
+    './src/styles/main.css',
+    './src/js/app.js',
+    './src/js/timer.js',
+    './src/js/stats.js',
+    './src/js/settings.js',
+    './favicon.ico',
     'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap',
     'https://cdn.jsdelivr.net/npm/chart.js'
 ];

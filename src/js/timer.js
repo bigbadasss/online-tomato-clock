@@ -342,7 +342,7 @@ let timer = {
             
             new Notification(sessionName + ' Complete!', {
                 body: 'Time for ' + nextSessionName.toLowerCase() + '. Great work! 🍅',
-                icon: '/favicon.ico'
+                icon: 'favicon.ico'
             });
         }
     },
