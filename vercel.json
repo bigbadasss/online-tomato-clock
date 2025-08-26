@@ -1,13 +1,7 @@
 {
-  "version": 2,
-  "name": "online-tomato-clock",
-  "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    }
-  ],
-
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
   "headers": [
     {
       "source": "/(.*)",
@@ -22,7 +16,7 @@
       "source": "/sw.js",
       "headers": [
         {
-          "key": "Cache-Control",
+          "key": "Cache-Control", 
           "value": "public, max-age=0, must-revalidate"
         }
       ]
