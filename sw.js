@@ -9,7 +9,7 @@ const urlsToCache = [
     '/src/js/timer.js',
     '/src/js/stats.js',
     '/src/js/settings.js',
-    '/assets/favicon.ico',
+    '/favicon.ico',
     'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap',
     'https://cdn.jsdelivr.net/npm/chart.js'
 ];
